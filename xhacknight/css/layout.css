@@ -1,0 +1,358 @@
+body{
+	font-family: 'Exo 2', sans-serif;
+	overflow-x: hidden;
+}
+html,body {
+    height:100%;
+}
+.xhacker-big-logo{
+	width: 100%;
+}
+.glyphicon{
+	opacity: .7;
+}
+div.firstscreen div.row{
+	display: table-cell;
+	vertical-align: middle;
+}
+div.firstscreen{
+	background: url('../img/bg.png') #2C3E50;
+	display: table;
+	width: 100%;
+}
+.fs-text{
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: 800;
+}
+
+.fs-img{
+	text-align: center;
+	right: 20px;
+}
+ul{
+	list-style-type:none;
+}
+.fs-text ul li{
+	padding: 0 0 10px 0;
+}
+a.options-inner
+{
+	position: relative;
+	float: left;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #2C3E50;
+}
+a.options-inner:hover{
+	background: #2C3E50;
+	background: url('../img/bg.png') rgba(44, 62, 80, 0.17);
+	color: #fff;
+}
+a.options-inner img{
+	width: 64px;
+}
+.details-options{
+	position: relative;
+	width: 65%;
+	margin: 0 auto;
+}
+.separate{
+	-webkit-box-shadow: 0 0px 7px 0 rgba(0,0,0,0.15);
+	box-shadow: 0 0px 7px 0 rgba(0,0,0,0.15);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d7d7d7;
+	margin-bottom: 5px;
+}
+.options-navbar{
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 0px 7px 0 rgba(0,0,0,0.15);
+	box-shadow: 0 0px 7px 0 rgba(0,0,0,0.15);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d7d7d7;
+	height: 100px;
+	margin-bottom: 5px;
+}
+.thirdscreen{
+	color: #2C3E50;
+}
+.outerdiv{
+	padding: 10px;
+}
+.fourthscreen  img{
+	height: 150px;
+}
+.thirdscreen .outerdiv > div.row,
+.fourthscreen .outerdiv > div.row,
+.fifthscreen .outerdiv > div.row{
+	margin-top: 10px;
+}
+.thirdscreen .outer-header,
+.fifthscreen .outer-header,
+.sixthscreen .outer-header,
+.seventhscreen .outer-header{
+	background: #2C3E50;
+	color: #fff;
+	font-weight: 800;
+	padding: 10px;
+	text-align: center;
+}
+.bigheading{
+	font-size: 22px;
+}
+.thirdscreen .left .glyphicon {
+	font-size: 180px;
+	text-align: center;
+}
+.thirdscreen .right{
+	font-size: 90px;
+	text-align: center;
+}
+.thirdscreen ul li{
+	padding: 5px;
+	font-size: 20px;
+	text-align: justify;
+}
+.venueinfo .col-md-9{
+	font-size: 36px;
+}
+.venueinfo .addressinfo {
+	font-size: 22px;
+}
+.fourthscreen, .fifthscreen, 
+.sixthscreen, .seventhscreen{
+	background: #fff;
+	color: #2C3E50;
+}
+.fourthscreen .outer-header{
+	background: #2C3E50;
+	color: #fff;
+	font-weight: 800;
+	padding: 10px;
+	text-align: center;
+}
+.seventhscreen .outer-header{
+	margin-bottom: 10px;
+}
+.thumbnail{
+	padding: 0px;
+	background: #FAC870;
+	background: url('../img/bg.png') rgba(44, 62, 80, 0.17);
+	border: 1px solid #2C3E50;
+	border-radius: 0;
+}
+
+.thumbnail .caption{
+	padding: 0px;
+	margin-top: 10px;
+}
+.contactinfo .caption{
+	background: #fff;
+}
+.fifthscreen .thumbnail .caption{
+	padding: 0px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+.fifthscreen ul li{
+	padding: 10px 15px 0;
+	letter-spacing: 1px;
+	font-weight: 800;
+	color: #2C3E50;
+}
+.fourthscreen .thumbnail .caption h3,
+.fifthscreen .thumbnail .caption h3,
+.seventhscreen .thumbnail .caption h3{
+	background: #2C3E50;
+	color: #fff;
+	padding: 5px;
+}
+.fourthscreen .thumbnail .caption p,
+.seventhscreen .thumbnail .caption p{
+	padding: 15px;
+	color: #2C3E50;
+	background: white;
+}
+.btn-primary{
+	background:#2C3E50;
+}
+.contactimg {
+	height: 90px !important;
+}
+.fifthscreen .contactinfo .thumbnail .caption h3{
+	padding:2px;
+}
+.fifthscreen .thumbnail .caption p{
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.sixthscreen  .media-body p{
+	line-height: 25px;
+	font-size: 22px;
+}
+.sixthscreen  h4.media-heading{
+	font-size: 30px;
+	font-weight: 800;
+	padding-top: 10px;
+}
+.myfooter{
+	background: #2C3E50;
+	width: auto;
+	padding: 0;
+}
+.myfooter .navbar .credit{
+	padding: 15px;
+}
+.developedby{
+	text-align:right;
+}
+.myfooter .navbar{
+	background: #2C3E50;
+}
+.rightreserved{
+	text-align: left;
+}
+/* Small devices (tablets, 768px and up) */
+@media all and (max-width: 400px){ 
+	.fs-text ul li {
+		text-align: center;
+		font-size: 15px;
+	}
+	.thirdscreen .left {
+		font-size: 100px;
+	}
+	.thirdscreen ul li {
+		font-size: 15px;
+	}
+	.boxbottom{
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+	.thirdscreen .outerdiv > div.row, 
+	.fourthscreen .outerdiv > div.row, 
+	.fifthscreen .outerdiv > div.row {
+		margin-top: 0px;
+	}
+	.rightreserved,
+	.myfooter .navbar .credit{
+		text-align: center;
+	}
+}
+@media all and (max-width: 400px){
+	.xhacker-big-logo{
+		width: 70%;
+		margin-bottom: 10px;
+	}
+	.details-options{
+		width: 100%;
+	}
+	.boxbottom{
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+	.thirdscreen .left {
+		font-size: 100px;
+	}
+	.thirdscreen .outerdiv > div.row, 
+	.fourthscreen .outerdiv > div.row, 
+	.fifthscreen .outerdiv > div.row {
+		margin-top: 0px;
+	}
+	.thirdscreen ul li{
+		text-align: center;
+	}
+	.thirdscreen .left .glyphicon {
+		font-size: 90px;
+	}
+	.fifthscreen .thumbnail .caption{
+		text-align: center;
+	}
+	.rightreserved,
+	.myfooter .navbar .credit{
+		text-align: center;
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 400px) and (max-width: 768px){
+	.fs-text ul li {
+		text-align: center;
+		font-size: 20px;
+	}
+	.xhacker-big-logo{
+		width: 70%;
+		margin-bottom: 10px;
+	}
+	.details-options{
+		width: 100%;
+	}
+	.boxbottom{
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+	.thirdscreen ul li{
+		text-align: center;
+	}
+	.thirdscreen .left .glyphicon {
+		font-size: 90px;
+	}
+	.fifthscreen .thumbnail .caption{
+		text-align: center;
+	}
+	.rightreserved,
+	.myfooter .navbar .credit{
+		text-align: center;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 992px){
+	.fs-text ul li {
+		text-align: center;
+		font-size: 30px;
+	}
+	.xhacker-big-logo{
+		width: 70%;
+		margin-top: 50px;
+	}
+	.boxbottom{
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+		text-align: center;
+	}
+	.thirdscreen ul li{
+		text-align: center;
+	}
+	.thirdscreen .left .glyphicon {
+		font-size: 90px;
+	}
+	.fifthscreen .thumbnail .caption{
+		text-align: center;
+	}
+	.details-options {
+		width: 55%;
+	}
+	.rightreserved,
+	.myfooter .navbar .credit{
+		text-align: center;
+	}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media all and  (min-width: 1200px){ 
+	.xhacker-big-logo{
+		margin-top: 5px;
+	}
+	.details-options {
+		width: 50%;
+	}
+}
