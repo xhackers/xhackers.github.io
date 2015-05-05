@@ -36,7 +36,7 @@
 			};
 			$.each(data.results, function (i, item) {
 				var x= new Date(Number(item.time)).toLocaleTimeString("en-us", options);
-					htmlString += '<p><h3>' + item.name   +'</h3><br>'+ x +'<br><a href="' + item.link + '" target="_blank">RSVP Now!</a>   <br>'+ item.description +'</p>';
+					htmlString += '<p><h3>' + item.name   +'</h3><br>'+ x +'<br><a href="' + item.link + '" target="_blank">RSVP Now!</a></p>';
 			});
 			$('#groups').html(htmlString);});
 		});
