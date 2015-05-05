@@ -23,6 +23,24 @@
       type="image/png" 
       href="img/favico.png">
       <script>window.scrollback = {"room":"xhackers","form":"toast","minimize":false};(function(d,s,h,e){e=d.createElement(s);e.async=1;e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";d.getElementsByTagName(s)[0].parentNode.appendChild(e);}(document,"script"));</script>
+      
+      <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+		$.getJSON("https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=Xhackers&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&sig_id=12030698&sig=40ff843a25daeae89000519cf27158a9337eb63f&callback=?", 
+		function (data) {
+			var htmlString = "";
+			var options = {
+				weekday: "long", year: "numeric", month: "short",
+				day: "numeric", hour: "2-digit", minute: "2-digit"
+			};
+			$.each(data.results, function (i, item) {
+				var x= new Date(Number(item.time)).toLocaleTimeString("en-us", options);
+					htmlString += '<p><h3>' + item.name   +'</h3><br>'+ x +'<br><a href="' + item.link + '" target="_blank">RSVP Now!</a>   <br>'+ item.description +'</p>';
+			});
+			$('#groups').html(htmlString);});
+		});
+    </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -112,7 +130,8 @@
             <div class="col-lg-8 col-lg-offset-2">
 
                     <h2>upcoming meetups</h2>
-                    <iframe width="570" height="300" src="http://meetu.ps/2Jcy8B" frameborder="0"></iframe>
+                    <div id="groups"></div>
+                    <!--<iframe width="570" height="300" src="http://meetu.ps/2Jcy8B" frameborder="0"></iframe>-->
                    <!-- <h3><strong>XHackNight - Two Day Hackathon(An Overnight Hack)</h3></p>
                     <h5>Join us for the first XHackNight.Two days of learning,hacking,networking,winning ofcourse.</br>Lots of devices,T-Shirts and goodies.Thanks to Microsoft,Xamarin and other sponsors. </h5>
                     
