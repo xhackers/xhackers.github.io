@@ -80,8 +80,8 @@
 
   .btn-common {
     font-size: 14px;
-    color: #0099ae;
-    border: 1px solid #0099ae;
+    color: #7d2dff;
+    border: 1px solid #7d2dff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 10px 25px;
@@ -182,7 +182,7 @@
 }
 
 .search i{
-  color: #00aeef;
+  color: #7d2dff;
   cursor: pointer;
   position: absolute;
   right: 10px;
@@ -204,7 +204,7 @@
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #00aeef;
+  border: 1px solid #7d2dff;
   margin-top: 20px;
   border-radius: 4px;
 }
@@ -289,11 +289,11 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #00aeef;
+  color: #7d2dff;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #00aeef;
+  color: #7d2dff;
 }
 
 
@@ -315,7 +315,7 @@ ul.sub-menu {
 }
 
 #header .navbar-nav li ul.sub-menu li .active{
-  background: #00aeef;
+  background: #7d2dff;
   color: #fff;
   position: relative;
 }
@@ -337,7 +337,7 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a:hover,
 #header .navbar-nav li ul.sub-menu li a:focus{
-  background: #00aeef;
+  background: #7d2dff;
   color: #fff;
 }
 
@@ -633,7 +633,7 @@ ul.sub-menu {
   font-size: 48px;
   height: 48px;
   line-height: 48px;
-  color: #00aeef;
+  color: #7d2dff;
   position: absolute;
   left: 50%;
   margin-left: -24px;
@@ -857,8 +857,8 @@ ul.sub-menu {
 }
 
 .social-profile .nav-pills li a:hover {
-  color: #702340;
-  border-color: #702340;
+  color: #7d2dff;
+  border-color: #7d2dff;
 }
 
 .person-info h2 {
@@ -908,7 +908,7 @@ ul.sub-menu {
 
 .count h1{
   font-size: 60px;
-  color: #00aeef;
+  color: #7d2dff;
 }
 
 .count h3{
@@ -952,7 +952,7 @@ h3.top-zero{
 }
 
 .progress-bar.progress-bar-primary{
-  background: #00aeef;
+  background: #7d2dff;
 }
 
 
@@ -1246,19 +1246,19 @@ Portfolio with right sidebar
 .categories .navbar-stacked li a:hover{
   background: none;
   margin-left: 20px;
-  color: #0099AE;
+  color: #7d2dff;
   opacity: 1;
 }
 
 .categories .navbar-stacked li.active a{
-  color: #0099AE;
+  color: #7d2dff;
   padding-left: 20px;
 }
 
 .categories .navbar-stacked li.active a:before{
   position: absolute;
   content: "";
-  border-color: transparent transparent transparent #0099AE;
+  border-color: transparent transparent transparent #7d2dff;
   border-width: 8px;
   border-style: solid;
   left: 0;
@@ -1304,7 +1304,7 @@ Portfolio with right sidebar
 }
 
 .sidebar-item .media:hover{
-  border-left: 2px solid #0099AE;
+  border-left: 2px solid #7d2dff;
   padding-left: 5px;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1313,7 +1313,7 @@ Portfolio with right sidebar
 }
 
 .sidebar-item .media:hover.media .media-body h4 a{
-  color: #0099AE;
+  color: #7d2dff;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -1355,7 +1355,7 @@ Portfolio with right sidebar
 }
 
 .tag-cloud .nav-pills li a:hover{
-  background: #0099AE;
+  background: #7d2dff;
 }
 
 .popular ul.gallery {
@@ -1580,7 +1580,7 @@ Blog Default
   border-left-style: solid;
   border-left-width: 1px;
   height: 100%;
-  border-left-color: #0099AE;
+  border-left-color: #7d2dff;
   left: 50%;
   margin-left: -2px;
 }
@@ -1646,11 +1646,11 @@ Blog Default
 .post-content  .post-author a{
   font-weight: 300;
   font-size: 14px;
-  color: #0099AE;
+  color: #7d2dff;
 }
 
 a.read-more{
-  color: #0099AE;
+  color: #7d2dff;
   font-weight: 300;
 }
 
@@ -1718,13 +1718,13 @@ Blog with right sidebar
 }
 
 .post-nav li a{
-  color: #0099AE;
+  color: #7d2dff;
   padding: 0;
   text-align: left;
 }
 
 .post-nav li a i{
-  color: #0099AE;
+  color: #7d2dff;
   margin-right: 8px;
 }
 
@@ -1851,7 +1851,7 @@ span.stButton_gradient,
 
 .author-profile .col-sm-2 img{
   width: 100%;
-  border-left: 3px solid #0099AE;
+  border-left: 3px solid #7d2dff;
 }
 
 .author-profile h3{
@@ -1965,7 +1965,7 @@ span.stButton_gradient,
 }
 
 #map-section address a:hover {
-  color:#00AEEF
+  color:#7d2dff
 }
 
 #contact-form #message{
@@ -2633,7 +2633,7 @@ span.stButton_gradient,
   background-color: transparent;
   height: 52px;
   color: #fff;
-  border:2px solid #00aeef;
+  border:2px solid #7d2dff;
 }
 
 #newsletter {
