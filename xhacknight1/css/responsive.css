@@ -15,7 +15,7 @@
     box-shadow: none;
     display: none;
     z-index: 999;
-    border: 1px solid #00aeef;
+    border: 1px solid #7d2dff;
   }
 
   #header .navbar-nav li ul.sub-menu li a {
@@ -215,18 +215,18 @@
 
   #header .navbar-inverse .navbar-toggle,
   #header .navbar-inverse .navbar-toggle:focus {
-    border-color: #00aeef;
+    border-color: #7d2dff;
     margin-top: 15px;
     margin-right: 5px;
     outline: none;
   }
 
   .navbar-header .navbar-toggle .icon-bar {
-    background-color: #00aeef;
+    background-color: #7d2dff;
   }
 
   #header .navbar-inverse .navbar-toggle:hover {
-    background: #00aeef;
+    background: #7d2dff;
   }
 
   #header .navbar-inverse .navbar-toggle:hover .icon-bar {
