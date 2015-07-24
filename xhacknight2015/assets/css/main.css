@@ -3096,6 +3096,9 @@
 		}
  .wrapper.style4 {
 			background: black;
+           display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3422,6 +3425,7 @@
 	body.is-touch #banner {
 		background-attachment: scroll;
 	}
+
 
 /* Footer */
 
@@ -4010,5 +4014,7 @@
 						margin: 0;
 						padding: 0;
 					}
+        
+}
 
 	}
