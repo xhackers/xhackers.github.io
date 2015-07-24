@@ -2145,13 +2145,16 @@
 		margin: 4em 0 0 0;
 	}
 
-.header-align{
-    height:100%;
-    display: block;
-    margin-right: auto; 
-    margin-left: auto;
+.img-align-left{
+
+    width:150px;
 }
 
+.img-align-right{
+  
+    height:157px;
+    padding-bottom: 20px;
+}
 /* Form */
 
 	form {
