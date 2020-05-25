@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>XHackers Xamarin Meetup Presentations</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="../css/grayscale.css" rel="stylesheet">
+    <link href="../css/presentations.css" rel="stylesheet">
+    <link rel="icon"
+          type="image/png"
+          href="../img/favico.png">
+    <script>window.scrollback = { "room": "xhackers", "form": "toast", "minimize": false }; (function (d, s, h, e) { e = d.createElement(s); e.async = 1; e.src = (location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js"; d.getElementsByTagName(s)[0].parentNode.appendChild(e); }(document, "script"));</script>
+
+    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.getJSON("https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=Xhackers&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&sig_id=12030698&sig=40ff843a25daeae89000519cf27158a9337eb63f&callback=?",
+                function (data) {
+                    var htmlString = "";
+                    var options = {
+                        weekday: "long", year: "numeric", month: "short",
+                        day: "numeric", hour: "2-digit", minute: "2-digit"
+                    };
+                    $.each(data.results, function (i, item) {
+                        var x = new Date(Number(item.time)).toLocaleTimeString("en-us", options);
+                        htmlString += '<p><h3>' + item.name + '</h3>' + x + '<br><a href="' + item.event_url + '" target="_blank">RSVP Now!</a></p>';
+                    });
+                    $('#groups').html(htmlString);
+                });
+        });
+    </script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">XHackers</span> Community
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">about</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/presentations">Presentations</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#upcoming-meetups">upcoming meetups</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section id="presentations" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>XHackers Presentations</h2>
+                <h5>Presentations & Demo links from XHackers Xamarin Meetups</h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="container meetup-section">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Virtual Meetup - May 23, 2020</h3>
+                <h4>What's New in Xamarin Forms 4.6</h4>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/dishantmshah/Xamarinal_XhackerMayMeetup/tree/master/Presentations" class="btn btn-default btn-lg"><i class="fa fa-file-text fa-fw"></i> <span class="network-name">Slides</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/dishantmshah/Xamarinal_XhackerMayMeetup" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Demo</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=pKGrZiw7Zrc" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">Recording</span></a>
+                    </li>
+                </ul>
+                <div class="next-session">
+                    <h4>Firebase Cloud with Xamarin Love</h4>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://www.slideshare.net/SamirGC1/xhacker-firebase" class="btn btn-default btn-lg"><i class="fa fa-file-text fa-fw"></i> <span class="network-name">Slides</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/samirgcofficial/XMeetFirebaseApp" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Demo</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=t4kPf8VdTuw" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">Recording</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <hr />
+            </div>
+        </div>
+    </section>
+
+    <section class="container meetup-section">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Meetup - Bengaluru - Feb 29, 2020</h3>
+                <!--<h4>Xamarin.Forms Shell</h4>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-file-text fa-fw"></i> <span class="network-name">Slides</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/xhackers" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Demo</span></a>
+                    </li>
+                </ul>
+                <div class="next-session">
+                    <h4>Xamarin Essentials</h4>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-file-text fa-fw"></i> <span class="network-name">Slides</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/xhackers" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Demo</span></a>
+                        </li>
+                    </ul>
+                </div>-->
+                <div class="next-session">
+                    <h4>Contributing to Xamarin.Forms</h4>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://github.com/techduggu/presentations/blob/master/Contributing%20to%20Xamarin.Forms.pdf" class="btn btn-default btn-lg"><i class="fa fa-file-text fa-fw"></i> <span class="network-name">Slides</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/techduggu/Xamarin.Forms" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Demo</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social-section" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+
+                <h3>Join our XHackers Xamarin Community</h3>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.meetup.com/XHackers" class="btn btn-default btn-lg"><i class="fa fa-users fa-fw"></i> <span class="network-name">Meetup</span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/XHackersco" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/xhackersco/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/xhackers" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 2020 - XHackers.co | XHackers logo is a creative work of Reeko Johny!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-106336471-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: none;
+}
+
+hr{
+    margin-top:35px;
+}
+
+.meetup-section{
+    margin-top: 10px;
+}
+
+.next-session{
+    margin-top:35px;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 150px;
+        margin-bottom:50px;
+    }
+}
