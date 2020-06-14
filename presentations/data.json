@@ -1,0 +1,51 @@
+{
+    "Events": [
+        {
+            "event_title": "Virtual Meetup - June 13, 2020",
+            "date": "2020-06-13",
+            "sessions": [
+                {
+                    "session_title": "Collection View & Visual State Manager - Advanced",
+                    "slide": "https://github.com/himanshudwd765/XHackers_Meetup_June_2020_Slides",
+                    "code": "https://github.com/himanshudwd765?tab=repositories",
+                    "recording": "https://www.youtube.com/watch?v=vWk1jftXIiY"
+                },
+                {
+                    "session_title": "Xamarin.UITest",
+                    "slide": "https://github.com/pranavtiw/UitestSlides",
+                    "code": "https://github.com/pranavtiw/XamarinUItest",
+                    "recording": "https://www.youtube.com/watch?v=PENFJeQCmZA"
+                }
+            ]
+        },
+        {
+            "event_title": "Virtual Meetup - May 23, 2020",
+            "date": "2020-05-23",
+            "sessions": [
+                {
+                    "session_title": "What's New in Xamarin Forms 4.6",
+                    "slide": "https://github.com/dishantmshah/Xamarinal_XhackerMayMeetup/tree/master/Presentations",
+                    "code": "https://github.com/dishantmshah/Xamarinal_XhackerMayMeetup",
+                    "recording": "https://www.youtube.com/watch?v=pKGrZiw7Zrc"
+                },
+                {
+                    "session_title": "Firebase Cloud with Xamarin Love",
+                    "slide": "https://www.slideshare.net/SamirGC1/xhacker-firebase",
+                    "code": "https://github.com/samirgcofficial/XMeetFirebaseApp",
+                    "recording": "https://www.youtube.com/watch?v=t4kPf8VdTuw"
+                }
+            ]
+        },
+        {
+            "event_title": "Meetup - Bengaluru - Feb 29, 2020",
+            "date": "2020-02-29",
+            "sessions": [
+                {
+                    "session_title": "Contributing to Xamarin.Forms",
+                    "slide": "https://github.com/techduggu/presentations/blob/master/Contributing%20to%20Xamarin.Forms.pdf",
+                    "code": "https://github.com/techduggu/Xamarin.Forms"
+                }
+            ]
+        }
+    ] 
+}
