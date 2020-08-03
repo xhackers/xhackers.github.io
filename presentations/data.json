@@ -1,6 +1,24 @@
 {
     "Events": [
         {
+            "event_title": "Virtual Meetup - Aug 1, 2020",
+            "date": "2020-08-01",
+            "sessions": [
+                {
+                    "session_title": "Flex and Bindable layouts for Adaptive UI",
+                    "slide": "https://www.slideshare.net/aneeshjha/aneesh-237461128",
+                    "code": "https://github.com/aneeshjha/FlexLayou-BindableLayout",
+                    "recording": "https://www.youtube.com/watch?v=kY3jb6oYtvk"
+                },
+                {
+                    "session_title": "FreshMvvm best practices for enterprise applications",
+                    "slide": "",
+                    "code": "",
+                    "recording": "https://www.youtube.com/watch?v=YWduvmxDL7o"
+                }
+            ]
+        },
+        {
             "event_title": "Virtual Meetup - June 13, 2020",
             "date": "2020-06-13",
             "sessions": [
