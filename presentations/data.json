@@ -1,6 +1,18 @@
 {
     "Events": [
         {
+            "event_title": "Virtual Meetup - Hacktoberfest Edition - Oct 3, 2020",
+            "date": "2020-10-03",
+            "sessions": [
+                {
+                    "session_title": "Hacktoberfest 2020 & Contributing to Open Source",
+                    "slide": "https://github.com/techduggu/presentations/blob/master/XHackers%20Oct%202020%20Meetup/Hacktoberfest%202020%20%26%20Contributing%20to%20Open%20Source.pdf",
+                    "code": "https://www.theurlist.com/xhack20-resources",
+                    "recording": "https://www.youtube.com/watch?v=4Dx-S0W0PzA"
+                }
+            ]
+        },
+        {
             "event_title": "Virtual Meetup - Aug 1, 2020",
             "date": "2020-08-01",
             "sessions": [
@@ -13,7 +25,7 @@
                 {
                     "session_title": "FreshMvvm best practices for enterprise applications",
                     "slide": "",
-                    "code": "",
+                    "code": "https://github.com/CHANDAN145/SampleApp",
                     "recording": "https://www.youtube.com/watch?v=YWduvmxDL7o"
                 }
             ]
@@ -60,7 +72,7 @@
             "sessions": [
                 {
                     "session_title": "Contributing to Xamarin.Forms",
-                    "slide": "https://github.com/techduggu/presentations/blob/master/Contributing%20to%20Xamarin.Forms.pdf",
+                    "slide": "https://github.com/techduggu/presentations/blob/master/XHackers%20Feb%202020%20Meetup/Contributing%20to%20Xamarin.Forms.pdf",
                     "code": "https://github.com/techduggu/Xamarin.Forms"
                 }
             ]
